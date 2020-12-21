@@ -6,7 +6,7 @@ Endpoint URLs:
 
 Usage: 
 
-https://jcloudia.com/api/banks/commercial/{?OPTIONAL}
+	https://jcloudia.com/api/banks/commercial/{?OPTIONAL}
 	{OPTIONAL}:
 		'list_by': {PARAMETERS}
 				'name',
@@ -16,5 +16,5 @@ https://jcloudia.com/api/banks/commercial/{?OPTIONAL}
 
 Example:
 
-https://jcloudia.com/api/banks/commercial
-https://jcloudia.com/api/banks/commercial/?list_by=paidup_capital
+	https://jcloudia.com/api/banks/commercial
+	https://jcloudia.com/api/banks/commercial/?list_by=paidup_capital
