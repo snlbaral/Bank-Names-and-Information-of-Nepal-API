@@ -6,6 +6,7 @@ Endpoint URLs:
 		https://jcloudia.com/api/banks/developments
 
 Usage: 
+
 	https://jcloudia.com/api/banks/commercial/{?OPTIONAL}
 	
 	{OPTIONAL}:
