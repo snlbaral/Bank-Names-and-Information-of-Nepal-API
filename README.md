@@ -3,8 +3,6 @@ Homepage:
 		https://jcloudia.com/api/banks
 
 
-Response Format: JSON
-
 Endpoint URLs:
 		
 		https://jcloudia.com/api/banks/commercial/
