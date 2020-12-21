@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fetching Data</title>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+</head>
+<body>
+
+<h2>Commercial Banks</h2>
+<hr/>
+
+<div id="output"></div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    $.ajax({
+	        url: "https://jcloudia.com/api/banks/commercial/",
+	        //possible urls
+	        //
+	        success: function(data) {
+	        	var data = JSON.parse(data);
+	        	//console.log(data);
+	        	var result = data.length;
+
+	        	//looping through the data
+	        	for(var i=0;i<result;i++) {
+	        		//create a div
+	        		var ele = document.createElement('div');
+	        		//add bank name to created div
+	        		ele.innerHTML = (i+1)+". "+data[i].bankName;
+	        		//append created div to main div
+	        		var mainDiv = document.getElementById('output');
+	        		mainDiv.appendChild(ele);
+	        	}
+	        } 
+	    });
+	});
+</script>
+
+</body>
+</html>
