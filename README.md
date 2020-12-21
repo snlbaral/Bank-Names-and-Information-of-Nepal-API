@@ -3,7 +3,7 @@ Response Format: JSON
 Endpoint URLs:
 		
 		https://jcloudia.com/api/banks/commercial
-		https://jcloudia.com/api/banks/developments
+		https://jcloudia.com/api/banks/development
 
 Usage: 
 
