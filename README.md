@@ -2,8 +2,8 @@ Response Format: JSON
 
 Endpoint URLs:
 		
-		https://jcloudia.com/api/banks/commercial
-		https://jcloudia.com/api/banks/development
+		https://jcloudia.com/api/banks/commercial/
+		https://jcloudia.com/api/banks/development/
 
 Usage: 
 
@@ -18,5 +18,5 @@ Usage:
 
 Example:
 
-	https://jcloudia.com/api/banks/commercial
+	https://jcloudia.com/api/banks/commercial/
 	https://jcloudia.com/api/banks/commercial/?list_by=paidup_capital
