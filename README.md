@@ -1,6 +1,6 @@
 Homepage:
 
-		https://jcloudia.com/api/banks
+		https://jcloudia.com/api
 
 
 Endpoint URLs:
